@@ -54,7 +54,7 @@
 	d_chi = document.getElementById("diachi");
 	dc = d_chi.value;
 	if (dc == "") {
-		document.getElementById("errdiachi").innerHTML = "Đại chỉ không được để trống không được để trống ";
+		document.getElementById("errdiachi").innerHTML = "Điạ chỉ không được để trống không được để trống ";
 		d_chi.style.backgroundColor = "yellow";
 		loi = (loi && false);
 	}
